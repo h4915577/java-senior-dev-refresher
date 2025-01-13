@@ -1,2 +1,2 @@
 # java-senior-dev-refresher
-check the [Getting Started Guide](DSA.md)
+ [Getting Started Guide](DSA.md)
