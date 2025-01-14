@@ -40,4 +40,8 @@ https://leetcode.com/problems/trapping-rain-water/description/
 
 Note: You can only travel pither north (up) on east- (right).
 
+11. Write a java program to find the max profit based on the given prices and the given Money. For this example, the best buy price should be 8 and sell price should be 155 
+Money  = 20;
+Prices = [23, 230, 16, 24, 35, 80, 70, 18, 29, 150, 8, 155, 17];
+
 
