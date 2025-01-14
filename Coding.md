@@ -12,3 +12,12 @@ What is the optimal solution for this?
 4. Merge two sorted arrays
 
 5. Longest Uniform SubString
+
+6. First Non Repeating character :Finds the first character that does not repeat anywhere in
+the input string Given "apple", the answer is "a", Given "racecars", the answer is "e
+
+7. Trapping Rain Water
+https://leetcode.com/problems/trapping-rain-water/description/
+
+8. Daily Temperature
+   https://leetcode.com/problems/daily-temperatures/description/
