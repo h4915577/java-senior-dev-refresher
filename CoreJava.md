@@ -76,6 +76,9 @@ and why is it important to provide a get connection method?
 
 13. Deep cloning implementation
 
+14. What is the use of try with resources
+8. Use of finally
+
 
 
 
