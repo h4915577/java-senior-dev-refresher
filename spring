@@ -28,6 +28,14 @@ way to exception handling.
 Design a micro service for placing order on Amazon from controller, services , data layer till data
 base structure design ,exception handling
 
+spring-boot security
+	 Spring boot security - To enable Spring security, we have to make a configuration class by using @Configuration and use @EnableWebSecurity 
+	 and extends WebSecurityConfigurerAdapter. 
+	 Now we have to further override both the configure method of WebSecurityConfigurerAdapter class
+	 i) configure(AuthenticationManagerBuilder auth) and set user and password with it and 
+	 ii) configure(HttpSecurity http)
+
+
 
 
 
