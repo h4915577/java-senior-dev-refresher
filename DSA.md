@@ -4,3 +4,8 @@
 4. LinkedHashMap - use case where we can use it. Example - LRU Cache
 5. Internal Implementation of TreeMap - RedBlackTree. Understand at high level how red black tree corresponds to balanced binary search tree
 6. What is binary search tree ? What would be the time complexity of searching an element in binary serach Tree ?
+7. ConcurrentHashMap - where would you use it ? Able to explain internal implementation
+8. HashMap vs HashTable
+9. LinkedHashMap - use where we can use it
+10. Synchronized HashMap vs Concurrent HashMap ?
+11. What happen if we add duplicate key, value records into concurrent HashMap ?
