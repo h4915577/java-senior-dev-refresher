@@ -70,6 +70,13 @@ and why is it important to provide a get connection method?
 
 10. Why is it important to perform a null check before acquiring a synchronized block in a double-checked locking pattern?
 
+11. Deep Cloning
+
+12. Shallow Cloning
+
+13. Deep cloning implementation
+
+
 
 
 
