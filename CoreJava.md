@@ -51,7 +51,25 @@ set.size(); // Q1 what will be the size of set
 //Q2 if they are not consider equal(i.e set.size() == 2) then what do we have to do to make
 them equal
 
-garbage collection
 } }
+garbage collection
+
+Comparator vs Comparable ? explain with example? why we have two different sorting mech?
+
+Why do  use an array to keep track of the minimum sum in a recursive function,
+ and how does it help update the value within the recursive call?
+
+7. What is a connection pool in the context of database management, 
+and what are the advantages of using it?
+
+8. How does implement a connection pool class as a singleton, 
+and why is it important to provide a get connection method?
+
+9. What is the purpose of the double-checked locking pattern in a multithreaded environment,
+ and how does it prevent race conditions?
+
+10. Why is it important to perform a null check before acquiring a synchronized block in a double-checked locking pattern?
+
+
 
 
