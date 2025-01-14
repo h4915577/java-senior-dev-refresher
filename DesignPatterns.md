@@ -8,3 +8,7 @@
 Q22 what is double null check in Singleton design pattern. (It was tricky question)
 Q24 Suppose if one Singleton object is returning some object and if some modify that value, how to
 resolve this problem. (It was tricky question)
+
+5. Which design pattern will you use to inject dependency without using spring.
+4) difference between Factory & abstract Factory Pattern. Disadvantages of Factory pattern over abstract factory?
+
