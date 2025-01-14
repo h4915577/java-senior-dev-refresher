@@ -38,3 +38,19 @@ Spring cloud Config Server - It is used to storing and serving, distributed conf
 										   git:
 										     url: "provide git repo url"
 
+
+ELK Stack- We are using centralize ELK Stack for centralise logging machanism.
+	           E stand for Elastic Search (No SQL database), L stands for Log Stash (log pipeline tool) and k stands for Kibana (Visualization)
+			   
+			   Mentioned that we can use Spring Sleuth + Zipkin as well if there are multiple instances of same Microservice.
+			   
+	Spring cloud gateway- It enable single entry point to access our application. we can define predicates to redirect client request to different microservices. 
+	                      To enable it, we have to add dependency Spring-cloud-gateway
+						  Spring: 
+						     cloud:
+							    gateway:
+								 routes:
+								    -id : Order_Service
+                                     url:
+                                     predicates:
+                                       path=/order/**
