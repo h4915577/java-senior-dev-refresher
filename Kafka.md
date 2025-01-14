@@ -4,3 +4,5 @@ zookeeper in Kafka and partition and offset related questons
 3. Kafka Streaming flow
 
 6. Main features of Kafka
+
+7. Consumer Group
