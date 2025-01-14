@@ -21,4 +21,20 @@ Hystrix - I mentioned that I am using Hystrix for fallBackMethods and we have to
 				     args : name : Order_Service (suppose)
 					 fallbackUri: forward: /orderFallBack
 		
-		Suppose any service is down so we have to send fall-back response to client 
+Suppose any service is down so we have to send fall-back response to client 
+
+
+Spring cloud Config Server - It is used to storing and serving, distributed configuration across Multiple Application. 
+	                             So rather then defining common properties in each individual application, we will keep it one single place.
+								 To enable it we have to add dependency ConfigServer
+								 Changes in yml file like
+								 
+								 Spring: 
+								   application:
+								      name : CONFIG_SERVER
+								   cloud:
+								      config:
+									    server: 
+										   git:
+										     url: "provide git repo url"
+
