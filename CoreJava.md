@@ -32,11 +32,24 @@ Q15 What is Future Object
 Q16 HashMap internal working
 Q17 equal and hashcode method contract
 Q18 If we override only equal method, will it work. (It was tricky question)
-Q19 Changes made in HashMap java8 and why. (It was tricky question)
-Q20 How many designs pattern you know.
-Q21 Explain Singleton design pattern.
-Q22 what is double null check in Singleton design pattern. (It was tricky question)
-Q24 Suppose if one Singleton object is returning some object and if some modify that value, how to
-resolve this problem. (It was tricky question)
+
+
+class Test{
+String name;
+Int age;
+Test(String name , int age){
+this.name = name;
+this.age = age;
+} }
+Class MainExp{
+Main(){
+Test t1= new Test(“ElonMusk”,43);
+Test t2= new Test(“ElonMusk”,43);
+Set<Test> set = new HashSet<>();set.add(t1);
+set.add(t2);
+set.size(); // Q1 what will be the size of set
+//Q2 if they are not consider equal(i.e set.size() == 2) then what do we have to do to make
+them equal
+} }
 
 
