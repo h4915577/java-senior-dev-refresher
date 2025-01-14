@@ -12,6 +12,10 @@ What's saga pattern? why you are using it? Give an example (e-commerce, or any e
 
 Explain API Gateway
 
+Advantages of feign client
+
+
+
 Hystrix - I mentioned that I am using Hystrix for fallBackMethods and we have to add the dependency  Spring-cloud-starter-hystrix and we have to do some stuffs in yml file
 	    Spring:
 		  cloud:
