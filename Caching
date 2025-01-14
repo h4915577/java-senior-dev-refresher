@@ -1,0 +1,1 @@
+How to cache data to avoid multiple hits to external API through methods ( Ex : There is API being called to get the access token, to avoid multiple hits to external API how can i cache that particular call and what policy we can add so that it can refresh the data)
