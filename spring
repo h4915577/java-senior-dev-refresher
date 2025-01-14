@@ -7,6 +7,8 @@
 7. multiple environments if you in spring boot how do you handle?
 8. what is the approach if you have different environment if you work with if you taking common
 approach?
+9. Bean scope
+10. @qualifire vs @autowire
 
 
 
