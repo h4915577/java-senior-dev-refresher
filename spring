@@ -20,6 +20,10 @@ Could not answer REST Methods and basic difference on HTTP verbs and response co
 
 How to connect with database in Spring Boot and return result set of a query
 
+Explain how you would create a REST API in spring boot from controllers, db all the
+way to exception handling.
+3. How Would you make a REST API in spring boot to return text/XML instead of JSON.
+
 
 
 
