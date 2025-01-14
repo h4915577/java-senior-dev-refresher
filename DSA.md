@@ -14,3 +14,11 @@
 Can we override only hashcode and if yes then what will be the effect
 14. BinaryTree - InOrder, PreOrder, PostOrder traversals
 
+15. what is priorityqueue
+	d. what is min heap
+	e. how to implement min heap without priorityqueue.
+	f. what is the tree structure of heap.
+	g. How to create tree.
+	f. how to create tree without Node.
+
+
