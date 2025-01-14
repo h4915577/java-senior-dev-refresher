@@ -6,4 +6,4 @@ lines = ["10.0.0.1 - GET 2020-08-24", "10.0.0.1 - GET 2020-08-24", "10.0.0.2 - G
 Return the most frequent IP address from the logs. The retuned IP address value must be in a string format. If multiple IP addresses have the count equal to max count, then return the address as a comma-separated string with IP addresses in sorted order.
 
 What is the optimal solution for this?
-4. 
+4. Merge two sorted arrays
