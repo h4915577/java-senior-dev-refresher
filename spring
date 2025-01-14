@@ -25,6 +25,10 @@ way to exception handling.
 3. How Would you make a REST API in spring boot to return text/XML instead of JSON.
 
 
+Design a micro service for placing order on Amazon from controller, services , data layer till data
+base structure design ,exception handling
+
+
 
 
 
