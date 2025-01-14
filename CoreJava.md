@@ -50,6 +50,8 @@ set.add(t2);
 set.size(); // Q1 what will be the size of set
 //Q2 if they are not consider equal(i.e set.size() == 2) then what do we have to do to make
 them equal
+
+garbage collection
 } }
 
 
