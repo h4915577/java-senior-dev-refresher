@@ -21,3 +21,23 @@ https://leetcode.com/problems/trapping-rain-water/description/
 
 8. Daily Temperature
    https://leetcode.com/problems/daily-temperatures/description/
+
+9. You are given price array where prices[i] is the price of stock on given ith day.
+   prices (7,1,5,3,6,4)
+
+10. 
+    You are an avid rock collector who lives in southern California. Some rare
+
+  and desirable rocks just became available in New York, so you are planning
+
+  a cross-country road trip. There are several other pare rocks that you could
+
+  pick up along the way.
+
+  You have been given a grid filled with numbers, representing the number of rare rocks available in various cities across the        country. Your objective
+
+  is to find the optimal path from So_Cal-to-New_York that would allow you to accumulate the most rocks along the way.
+
+Note: You can only travel pither north (up) on east- (right).
+
+
