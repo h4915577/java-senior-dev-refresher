@@ -36,6 +36,9 @@ way to exception handling.
 3. How Would you make a REST API in spring boot to return text/XML instead of JSON.
 
 
+  3. How IOC works in Spring.
+  4. What is bean and how DI works in case of beans, what are the use cases.
+
 Design a micro service for placing order on Amazon from controller, services , data layer till data
 base structure design ,exception handling
 
