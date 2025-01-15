@@ -6,7 +6,10 @@ String b = a;
 a = "Birla";
 b = ?
 
-3. Java immutability - write a sample class and ensure fields are not modified from the outside
+6) Differece between Comparable and Comparator along with compare and compareTo.
+
+
+4. Java immutability - write a sample class and ensure fields are not modified from the outside
    Question 3: Design an Immutable class, a variation was also asked like if a List<String> was
 added in the class and we use a getter function to obtain this list, this list can be mutated ,
 how to make sure that even this list is immutable in this class(suggest a method other than
