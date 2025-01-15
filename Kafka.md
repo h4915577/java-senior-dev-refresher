@@ -17,3 +17,6 @@ How to integrate Kafka with your project ?
 
 Kafka -> why kafka?, What makes kafka fast?, Working of Consumer group coordinator and how
 rebalance will happen?, Configuration used in the current project and daily load
+
+Kafka use case in current project, configuration, daily load, asked few questions on failure point and
+error handlin
