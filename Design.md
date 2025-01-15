@@ -4,5 +4,7 @@ available.
 2.Play a random song from the song list present in the music player
 3.Play the 10 most frequently played songs from the song list in the music player.
 
+Library Management System Design. Write pseduo code.
+
 
 
