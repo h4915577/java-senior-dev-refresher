@@ -17,7 +17,8 @@ Explain API Gateway
 
 Advantages of feign client
 
-
+Asked about Circuit Breaker design
+pattern, how to implement using resilience4j?
 
 Hystrix - I mentioned that I am using Hystrix for fallBackMethods and we have to add the dependency  Spring-cloud-starter-hystrix and we have to do some stuffs in yml file
 	    Spring:
