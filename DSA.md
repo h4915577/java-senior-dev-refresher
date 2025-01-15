@@ -46,3 +46,7 @@ Can we override only hashcode and if yes then what will be the effect
 	f. how to create tree without Node.
 
 
+Can we use Employee object as Key of Hashmap. If so how
+
+
+
