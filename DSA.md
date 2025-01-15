@@ -48,5 +48,8 @@ Can we override only hashcode and if yes then what will be the effect
 
 Can we use Employee object as Key of Hashmap. If so how
 
+Difference between LinkedHashMap and HashMap. Internal working
+
+
 
 
