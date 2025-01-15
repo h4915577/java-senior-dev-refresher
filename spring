@@ -18,6 +18,12 @@ Q34 Explain Cache
 What is oauth2 and where have you implemented it ?
 Could not answer REST Methods and basic difference on HTTP verbs and response codes. 
 
+How APIs are directed towards the
+controller. Asked me to write a pseudo code for end-to-end flow of a GET API call.
+Supplementary questions regarding annotations like difference between @Controller &
+@RestController, what if we use @Controller for a service layer class, why use
+ResponseEntity? How to use interceptors with RestTemplate?
+
 How to connect with database in Spring Boot and return result set of a query
 
 Explain how you would create a REST API in spring boot from controllers, db all the
