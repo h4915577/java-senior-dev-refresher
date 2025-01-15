@@ -3,3 +3,7 @@ Producer..Consumer
 
 7. Asked java program on multi-threading where given a list of integers and no of threads, we need to add 1 to all the no of numbers in the list and return the final list using the given no of threads.
 
+How to use ExecutorService with CompletableFuture. Gave a scenario to place an Order with
+steps as:- a. initiate payment b. update inventory c. send email to user. Implement the above
+using Completable Future
+
