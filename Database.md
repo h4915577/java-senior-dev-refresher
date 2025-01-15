@@ -12,6 +12,8 @@
 4) What is LEFT Outer Join
 5) Write a Query to return the department name  , max min and average salary of that department
 
+5 Again in depth question on the DB isolation levels in which scenario to use what. Lots of why
+and how
 
 10. Self Join
 SQL Question on Self Join
