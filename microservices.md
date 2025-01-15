@@ -11,6 +11,23 @@ How to scale a DB?
 
 How do you scale a microservice?
 
+8. AWS Autoscaling how it works. Scenario based questions
+
+9. Elastic Load Balancers - its use and working
+
+10. Message Queue - AWS SQS and SNS, How you implemented them in your previous project and for what purpose.
+
+11. Optimization of Application - Cacheing , Cron-Jobs (Scheduling)
+
+12. Java Reflection
+
+13. Data Warehouse
+
+14. ChangeStream (MongoDB related)
+
+15. Difference between Spring Data JPA and Hibernate.
+
+
 What's saga pattern? why you are using it? Give an example (e-commerce, or any example)
 
 Explain API Gateway
