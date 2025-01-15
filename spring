@@ -26,6 +26,11 @@ ResponseEntity? How to use interceptors with RestTemplate?
 
 How to connect with database in Spring Boot and return result set of a query
 
+Spring boot -> 1) Advantages of spring boot and how it works internally, follow up question on
+working of autoconfiguration (from spring factory file to AutoConfig classes and starter pom
+working) and follow up question on @ConditionalOnClass and @ConditionalOnBean
+difference.
+
 Explain how you would create a REST API in spring boot from controllers, db all the
 way to exception handling.
 3. How Would you make a REST API in spring boot to return text/XML instead of JSON.
