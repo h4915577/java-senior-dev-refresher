@@ -9,6 +9,8 @@ Return the most frequent IP address from the logs. The retuned IP address value 
 
 What is the optimal solution for this?
 
+Given two sorted arrays , merge the arrays in sorted way without arrays.sort or sort functionality
+
 4. Merge two sorted arrays
 
 5. Longest Uniform SubString
