@@ -74,6 +74,15 @@ ELK Stack- We are using centralize ELK Stack for centralise logging machanism.
 3) What strategies would you use to test a third-party service that is located outside of a VPC?
 4) In token-based REST authentication, how does the mechanism for token exchange work, and what are its security considerations?
 
+5) Given a scenario where a Microservice is being handled by a team and another Microservice is
+being handled by some other team and we want to use the another Microservice which
+belongs to other team in my microservice so how I will be doing it explain it in detail. And lots
+of cross questions.
+4 Indepth questions on S3, SNS,SQS, AWS Lambda. How will you use all these in event driven
+architecture. As I had worked in these and not in Kafka so he focused on this. If anyone would
+have worked on Kafka he will be focusing more on this.
+
+
  Write a Rest API endpoint for PUT mapping and think of a scenario where you will use PUT
 mapping so implement the Model and service classes.
 			   
