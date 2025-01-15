@@ -63,6 +63,7 @@ Spring cloud Config Server - It is used to storing and serving, distributed conf
 										   git:
 										     url: "provide git repo url"
 
+What to do if microservice becomes slow and how to remeidate it ?
 
 ELK Stack- We are using centralize ELK Stack for centralise logging machanism.
 	           E stand for Elastic Search (No SQL database), L stands for Log Stash (log pipeline tool) and k stands for Kibana (Visualization)
