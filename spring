@@ -41,6 +41,14 @@ spring-boot security
 	 i) configure(AuthenticationManagerBuilder auth) and set user and password with it and 
 	 ii) configure(HttpSecurity http)
 
+17) Different HTTP methods in REST API,What POST is used for, Difference between PUT and POST.	
+18) How to handle multiple configurations for different Microservices
+19) Spring cloud config Server how it is used with MS to get config information
+20) @Profile annotation
+
+22) AOP in Spring and its example
+
+
 
 
 
