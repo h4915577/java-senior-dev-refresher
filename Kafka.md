@@ -14,3 +14,6 @@ zookeeper in Kafka and partition and offset related questons
    How will you ensure while reading same A will always read before C and B always before D.
 
 How to integrate Kafka with your project ?
+
+Kafka -> why kafka?, What makes kafka fast?, Working of Consumer group coordinator and how
+rebalance will happen?, Configuration used in the current project and daily load
