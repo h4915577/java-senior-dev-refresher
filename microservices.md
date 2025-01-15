@@ -50,6 +50,11 @@ ELK Stack- We are using centralize ELK Stack for centralise logging machanism.
 	           E stand for Elastic Search (No SQL database), L stands for Log Stash (log pipeline tool) and k stands for Kibana (Visualization)
 			   
 			   Mentioned that we can use Spring Sleuth + Zipkin as well if there are multiple instances of same Microservice.
+
+      2) Can you explain the concepts of VPC and DNS in AWS, and their roles in cloud infrastructure?
+3) What strategies would you use to test a third-party service that is located outside of a VPC?
+4) In token-based REST authentication, how does the mechanism for token exchange work, and what are its security considerations?
+
 			   
 	Spring cloud gateway- It enable single entry point to access our application. we can define predicates to redirect client request to different microservices. 
 	                      To enable it, we have to add dependency Spring-cloud-gateway
