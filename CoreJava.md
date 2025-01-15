@@ -8,6 +8,8 @@ b = ?
 
 6) Differece between Comparable and Comparator along with compare and compareTo.
 
+how will you test a method that will throw exception and how will you assert its msg using
+junit 5 (use: assertThrows() method)
 
 4. Java immutability - write a sample class and ensure fields are not modified from the outside
    Question 3: Design an Immutable class, a variation was also asked like if a List<String> was
