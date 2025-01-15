@@ -1,2 +1,5 @@
 1. Which object is locked in synchronizedMap ?
 Producer..Consumer
+
+7. Asked java program on multi-threading where given a list of integers and no of threads, we need to add 1 to all the no of numbers in the list and return the final list using the given no of threads.
+
