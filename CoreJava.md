@@ -2,91 +2,54 @@
    
 2.
 String a = "Tata";
+
 String b = a;
+
 a = "Birla";
+
 b = ?
 
 6) Differece between Comparable and Comparator along with compare and compareTo.
 
-how will you test a method that will throw exception and how will you assert its msg using
-junit 5 (use: assertThrows() method)
+How will you test a method that will throw exception and how will you assert its msg using junit 5 (use: assertThrows() method)
 
-4. Java immutability - write a sample class and ensure fields are not modified from the outside
-   Question 3: Design an Immutable class, a variation was also asked like if a List<String> was
+Java immutability - write a sample class and ensure fields are not modified from the outside
+Design an Immutable class, a variation was also asked like if a List<String> was
 added in the class and we use a getter function to obtain this list, this list can be mutated ,
 how to make sure that even this list is immutable in this class(suggest a method other than
 Collections.immutableList)
 
 5. What's concurrentModificationException?
- 
 Many users are accessing same list (adding, removing and deleting the records). does java provides any out of the box solution for that?
 
-2 ways to create a string? what's the difference ?
+6. 2 ways to create a string? what's the difference ?
 
-Q1 Overloading vs Overriding.
-Q2 Java work as Pass by value or Pass by reference (It was tricky question)
-Q3 Executor Service (It was tricky question)
-Q4 countdownlatch vs cyclicbarrier
-Q5 Types Of thread pool
-Q6 Difference between Thread pool(It was tricky question)
-Q7 Use of Default method
-Q8 Difference between Abstract class vs Interface
-Q9 Ways to create thread.
-Q10 Best Approach to create Thread.
-Q11 Map vs FlatMap
-Q12 Parallel Stream internal working
-Q13 when we choose Stream over parallel Stream (It was tricky question)
-Q14 Explain completablefuture.
-Q15 What is Future Object
-Q16 HashMap internal working
-Q17 equal and hashcode method contract
-Q18 If we override only equal method, will it work. (It was tricky question)
-
-
-class Test{
-String name;
-Int age;
-Test(String name , int age){
-this.name = name;
-this.age = age;
-} }
-Class MainExp{
-Main(){
-Test t1= new Test(“ElonMusk”,43);
-Test t2= new Test(“ElonMusk”,43);
-Set<Test> set = new HashSet<>();set.add(t1);
-set.add(t2);
-set.size(); // Q1 what will be the size of set
-//Q2 if they are not consider equal(i.e set.size() == 2) then what do we have to do to make
-them equal
-
-} }
-garbage collection
-
-Comparator vs Comparable ? explain with example? why we have two different sorting mech?
-
-Why do  use an array to keep track of the minimum sum in a recursive function,
- and how does it help update the value within the recursive call?
-
-7. What is a connection pool in the context of database management, 
+7 Overloading vs Overriding.
+8. Java work as Pass by value or Pass by reference (It was tricky question)
+9. Executor Service 
+10. countdownlatch vs cyclicbarrier
+11. Types Of thread pool
+12. Use of Default method in java8
+13 Difference between Abstract class vs Interface
+14. Ways to create thread.
+15. Best Approach to create Thread.
+16. Map vs FlatMap
+17. Parallel Stream internal working
+18. when we choose Stream over parallel Stream 
+19. Explain completablefuture.
+20. What is Future Object
+21. HashMap internal working
+22. equal and hashcode method contract
+23. If we override only equal method, will it work. 
+24. What is a connection pool in the context of database management, 
 and what are the advantages of using it?
-
-8. How does implement a connection pool class as a singleton, 
-and why is it important to provide a get connection method?
-
-9. What is the purpose of the double-checked locking pattern in a multithreaded environment,
- and how does it prevent race conditions?
-
-10. Why is it important to perform a null check before acquiring a synchronized block in a double-checked locking pattern?
-
-11. Deep Cloning
-
-12. Shallow Cloning
-
-13. Deep cloning implementation
-
-14. What is the use of try with resources
-8. Use of finally
+25. How does implement a connection pool class as a singleton, and why is it important to provide a get connection method?
+26. What is the purpose of the double-checked locking pattern in a multithreaded environment, and how does it prevent race conditions?
+27. Why is it important to perform a null check before acquiring a synchronized block in a double-checked locking pattern?
+28. Deep Cloning
+29. Shallow Cloning
+30. What is the use of try with resources
+31. Use of finally
 
 
 
