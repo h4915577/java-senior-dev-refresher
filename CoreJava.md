@@ -8,7 +8,6 @@ a = "Birla";
 
 b = ?
 
-
 Differece between Comparable and Comparator along with compare and compareTo.
 
 How will you test a method that will throw exception and how will you assert its msg using junit 5 (use: assertThrows() method)
