@@ -25,31 +25,55 @@ Many users are accessing same list (adding, removing and deleting the records). 
 6. 2 ways to create a string? what's the difference ?
 
 7 Overloading vs Overriding.
+
 8. Java work as Pass by value or Pass by reference (It was tricky question)
-9. Executor Service 
-10. countdownlatch vs cyclicbarrier
-11. Types Of thread pool
-12. Use of Default method in java8
+   
+10. Executor Service
+    
+12. countdownlatch vs cyclicbarrier
+    
+14. Types Of thread pool
+     
+16. Use of Default method in java8
+17. 
 13 Difference between Abstract class vs Interface
-14. Ways to create thread.
-15. Best Approach to create Thread.
-16. Map vs FlatMap
-17. Parallel Stream internal working
-18. when we choose Stream over parallel Stream 
-19. Explain completablefuture.
-20. What is Future Object
-21. HashMap internal working
-22. equal and hashcode method contract
-23. If we override only equal method, will it work. 
-24. What is a connection pool in the context of database management, 
+
+19. Ways to create thread.
+20. 
+21. Best Approach to create Thread.
+22. 
+23. Map vs FlatMap
+24. 
+25. Parallel Stream internal working
+26. 
+27. when we choose Stream over parallel Stream
+28. 
+29. Explain completablefuture.
+30. 
+31. What is Future Object
+32. 
+33. HashMap internal working
+34. 
+35. equal and hashcode method contract
+36. 
+37. If we override only equal method, will it work.
+38. 
+39. What is a connection pool in the context of database management, 
 and what are the advantages of using it?
-25. How does implement a connection pool class as a singleton, and why is it important to provide a get connection method?
-26. What is the purpose of the double-checked locking pattern in a multithreaded environment, and how does it prevent race conditions?
-27. Why is it important to perform a null check before acquiring a synchronized block in a double-checked locking pattern?
-28. Deep Cloning
-29. Shallow Cloning
-30. What is the use of try with resources
-31. Use of finally
+
+41. How does implement a connection pool class as a singleton, and why is it important to provide a get connection method?
+42. 
+43. What is the purpose of the double-checked locking pattern in a multithreaded environment, and how does it prevent race conditions?
+44. 
+45. Why is it important to perform a null check before acquiring a synchronized block in a double-checked locking pattern?
+46. 
+47. Deep Cloning
+48. 
+49. Shallow Cloning
+50. 
+51. What is the use of try with resources
+52. 
+53. Use of finally
 
 
 
