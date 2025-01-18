@@ -2,7 +2,6 @@ Microservices vs Monoliths
 
 What are the key differences between TLS and mTLS, and when would you use each?
 
-
 When to go for microservices and when to go for monolith. Wanted some practical examples.
 
 Having a shared DB between microservices, is it good or workable?
@@ -11,22 +10,15 @@ How to scale a DB?
 
 How do you scale a microservice?
 
-8. AWS Autoscaling how it works. Scenario based questions
+AWS Autoscaling how it works. Scenario based questions
 
-9. Elastic Load Balancers - its use and working
+Elastic Load Balancers - its use and working
 
-10. Message Queue - AWS SQS and SNS, How you implemented them in your previous project and for what purpose.
+Message Queue - AWS SQS and SNS, How you implemented them in your previous project and for what purpose.
 
-11. Optimization of Application - Cacheing , Cron-Jobs (Scheduling)
+Optimization of Application - Cacheing , Cron-Jobs (Scheduling)
 
-12. Java Reflection
-
-13. Data Warehouse
-
-14. ChangeStream (MongoDB related)
-
-15. Difference between Spring Data JPA and Hibernate.
-
+Difference between Spring Data JPA and Hibernate.
 
 What's saga pattern? why you are using it? Give an example (e-commerce, or any example)
 
@@ -50,49 +42,41 @@ Suppose any service is down so we have to send fall-back response to client
 
 
 Spring cloud Config Server - It is used to storing and serving, distributed configuration across Multiple Application. 
-	                             So rather then defining common properties in each individual application, we will keep it one single place.
-								 To enable it we have to add dependency ConfigServer
-								 Changes in yml file like
-								 
-								 Spring: 
-								   application:
-								      name : CONFIG_SERVER
-								   cloud:
-								      config:
-									    server: 
-										   git:
-										     url: "provide git repo url"
+     So rather then defining common properties in each individual application, we will keep it one single place.
+				 To enable it we have to add dependency ConfigServer
+				 Changes in yml file like
+				 
+				 Spring: 
+				   application:
+				      name : CONFIG_SERVER
+				   cloud:
+				      config:
+					    server: 
+						   git:
+						     url: "provide git repo url"
 
 What to do if microservice becomes slow and how to remeidate it ?
 
 ELK Stack- We are using centralize ELK Stack for centralise logging machanism.
-	           E stand for Elastic Search (No SQL database), L stands for Log Stash (log pipeline tool) and k stands for Kibana (Visualization)
+E stand for Elastic Search (No SQL database), L stands for Log Stash (log pipeline tool) and k stands for Kibana (Visualization)
 			   
-			   Mentioned that we can use Spring Sleuth + Zipkin as well if there are multiple instances of same Microservice.
+how to use Spring Sleuth + Zipkin ?
 
-      2) Can you explain the concepts of VPC and DNS in AWS, and their roles in cloud infrastructure?
-3) What strategies would you use to test a third-party service that is located outside of a VPC?
-4) In token-based REST authentication, how does the mechanism for token exchange work, and what are its security considerations?
+Can you explain the concepts of VPC and DNS in AWS, and their roles in cloud infrastructure?
 
-5) Given a scenario where a Microservice is being handled by a team and another Microservice is
-being handled by some other team and we want to use the another Microservice which
-belongs to other team in my microservice so how I will be doing it explain it in detail. And lots
-of cross questions.
-4 Indepth questions on S3, SNS,SQS, AWS Lambda. How will you use all these in event driven
-architecture. As I had worked in these and not in Kafka so he focused on this. If anyone would
-have worked on Kafka he will be focusing more on this.
+What strategies would you use to test a third-party service that is located outside of a VPC?
 
+In token-based REST authentication, how does the mechanism for token exchange work, and what are its security considerations?
 
- Write a Rest API endpoint for PUT mapping and think of a scenario where you will use PUT
-mapping so implement the Model and service classes.
+Write a Rest API endpoint for PUT mapping and think of a scenario where you will use PUT mapping so implement the Model and service classes.
 			   
-	Spring cloud gateway- It enable single entry point to access our application. we can define predicates to redirect client request to different microservices. 
-	                      To enable it, we have to add dependency Spring-cloud-gateway
-						  Spring: 
-						     cloud:
-							    gateway:
-								 routes:
-								    -id : Order_Service
-                                     url:
-                                     predicates:
-                                       path=/order/**
+Spring cloud gateway- It enable single entry point to access our application. we can define predicates to redirect client request to different microservices. 
+To enable it, we have to add dependency Spring-cloud-gateway
+Spring: 
+	cloud:
+	gateway:
+	 routes:
+	    -id : Order_Service
+	     url:
+	     predicates:
+	       path=/order/**
