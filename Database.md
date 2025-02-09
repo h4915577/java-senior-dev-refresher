@@ -37,4 +37,11 @@ FROM
 
 WHERE e.country = 'India'
 https://www.sqltutorial.org/sql-self-join/
-10. 
+
+10. How can you calculate the average salary of employees grouped by their department while also filtering out departments with less than five employees?
+    SELECT department_id, AVG(salary) AS average_salary
+FROM Employees
+GROUP BY department_id
+HAVING COUNT(employee_id) >= 5;
+
+20.
